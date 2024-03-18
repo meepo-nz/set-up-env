@@ -6,11 +6,13 @@ Click on the Apple menu ()on the top-left corner.
 Select About This Mac from the dropdown menu.
 Mine is intel-based chip. Check yours.
 
-1. Click on the Apple menu () located in the top-left corner of your screen. 2. Select “About This Mac” from the dropdown menu
+1. Click on the Apple menu () located in the top-left corner of your screen.
+
+2. Select “About This Mac” from the dropdown menu
 
 # Step 2— Download MongoDB Package
 
-Head over to here: MongoDB Community Edition website.
+Head over to here: [MongoDB Community Edition website](https://www.mongodb.com/try/download/community).
 Choose the appropriate compatibility:
 
 ![Image text](https://github.com/meepo-nz/set-up-env/blob/master/MongoDB/screenshot/mongoDB-download.png)
@@ -75,9 +77,13 @@ sudo chown _USER_ ~/data/log/mongodb
 # Step 5— Configure parameters for db and log
 
 1. To run MongoDB, you need to execute the `mongod` process with specific parameters at the system prompt.
+
 2. Open a Terminal window.
+
 3. Run the following command: `mongod --dbpath ~/data/db --logpath ~/data/log/mongodb/mongo.log --fork`
+
 4. Run the following command to verify successfully: `ps aux | grep -v grep | grep mongod`
+
 5. Then, you will see result like this:`user XXXXX X.X X.X XXXXXXX XXXXXXX ? Ss XX:XX mongod --dbpath ~/data/db --logpath ~/data/log/mongodb/mongo.log --fork`
 
 # Step 6— Start MongoDB
@@ -93,6 +99,6 @@ Run mongoshin Terminal.
 > Check MongoDB version by typing mongosh --version in Terminal.
 > Alright, run mongoshin Terminal and you are GOOD to go.
 
-My curren version is 2.2.0, also you can download MongoDB_GUI(https://www.mongodb.com/try/download/compass)
+My curren version is 2.2.0, also you can download [MongoDB_GUI](https://www.mongodb.com/try/download/compass)
 
 Run “mongosh”, and you are good to go!
