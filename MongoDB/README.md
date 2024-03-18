@@ -13,7 +13,7 @@ Mine is intel-based chip. Check yours.
 Head over to here: MongoDB Community Edition website.
 Choose the appropriate compatibility:
 
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+![Image text](https://github.com/meepo-nz/set-up-env/blob/master/MongoDB/screenshot/mongoDB-download.png)
 
 > For M1 chip, select macOS arm 64
 > For Intel-based, select macOS x64
@@ -42,7 +42,7 @@ cd /
 open usr/local/bin -a Finder
 ```
 
-![Image text](MongoDB/screenshot/mongoDB-download.png)
+![Image text](https://github.com/meepo-nz/set-up-env/blob/master/MongoDB/screenshot/check-bin.png)
 
 # Step 4— Create data and log directories
 
