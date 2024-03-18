@@ -42,7 +42,7 @@ cd /
 open usr/local/bin -a Finder
 ```
 
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+![Image text](MongoDB/screenshot/mongoDB-download.png)
 
 # Step 4— Create data and log directories
 
